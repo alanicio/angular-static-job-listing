@@ -30,4 +30,15 @@ export class JobListComponent implements OnInit {
     }
   }
 
+  validateIfMatchWithTag=(tags)=>{
+    if(this.tags.length==0){
+      return true;
+    }
+    for(let tag of this.tags){
+      if(tags.indexOf(tag)==-1){
+        return false;
+      }
+    }
+    return true;
+  }
 }
