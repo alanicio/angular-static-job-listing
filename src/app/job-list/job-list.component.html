@@ -1,27 +1,9 @@
 <div *ngIf="tags.length>0" class="tagBar">
-	<div class="entireTag">
+	<div *ngFor="let tag of tags" class="entireTag">
 		<div class="tag">
-			HTML
+			{{tag}}
 		</div>
-		<div class="cross">&#10005;</div>
-	</div>
-	<div class="entireTag">
-		<div class="tag">
-			CSS
-		</div>
-		<div class="cross">&#10005;</div>
-	</div>
-	<div class="entireTag">
-		<div class="tag">
-			Python
-		</div>
-		<div class="cross">&#10005;</div>
-	</div>
-	<div class="entireTag">
-		<div class="tag">
-			JavaScript
-		</div>
-		<div class="cross">&#10005;</div>
+		<div class="cross" (click)="deleteTag(tag)">&#10005;</div>
 	</div>
 </div>
 <jobCard *ngFor="let job of jobs"

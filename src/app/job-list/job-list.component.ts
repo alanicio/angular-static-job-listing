@@ -18,7 +18,16 @@ export class JobListComponent implements OnInit {
   }
 
   onSelectTag=(tag:string)=>{
-  	alert(tag);
+  	if(this.tags.indexOf(tag)==-1){
+      this.tags.push(tag);
+    }
+  }
+
+  deleteTag=(tag:string)=>{
+    let index=this.tags.indexOf(tag);
+    if(index>-1){
+      this.tags.splice(index,1);
+    }
   }
 
 }
