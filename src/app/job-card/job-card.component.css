@@ -1,0 +1,117 @@
+.cardComponent{
+	background-color: white;
+	width: 65%;
+	margin: auto;
+	border-radius: 4px;
+	height: 150px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+	margin-top: 3%;
+}
+
+.logo{
+	background-repeat: no-repeat;
+  	background-size: cover;
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: 5%;
+	margin-top: 1.8%;
+	vertical-align: top;
+}
+
+.secondPart{
+	display: inline-block;
+	margin-left: 2%;
+	width:45%;
+	margin-top: 1.8%;
+}
+
+.companyName{
+	color: #5ea4a4;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.new{
+	background-color: #5ea4a4;
+	width: 10%;
+	display: inline-block;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-left: 5%;
+}
+
+.featured{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+	width: 18%;
+	display: inline-block;
+	text-align: center;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-left: 3%;
+}
+
+.position{
+	color: black;
+	width: 100%;
+	padding-top: 3%;
+	font-weight:bold;
+	font-size: 22px;
+}
+
+.timesAndPlace{
+	width: 100%;
+	padding-top: 2.5%;
+	color: #999ea1;
+}
+
+.subdata{
+	display: inline-block;
+}
+
+.separator{
+	width: 4%;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 1.25%;
+	padding-left: 3.3%;
+}
+
+.separator div{
+	width: 5px;
+	height: 5px;
+	background-color: #999ea1;
+	border-radius: 50%;
+}
+
+.tags{
+	display: inline-block;
+	width: 38%;
+	vertical-align: top;
+	padding-top: 5%;
+	font-size: 14px;
+}
+
+.tags div{
+	display: inline-block;
+	margin-right: 4%;
+	background-color: #f0f6f6;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 3%;
+	padding-right: 3%;
+	border-radius: 4px;
+	color: #5ea4a4;
+	font-weight: bold;
+}

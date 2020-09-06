@@ -1,0 +1,42 @@
+<div class="cardComponent">
+	<div class="logo" [ngStyle]="{'background-image':'url(../../assets/'+logo+')'}">
+	</div>
+	<div class="secondPart">
+		<div>
+			<div class="companyName">
+				{{company}}
+			</div>
+			<div *ngIf="new" class="new">
+				new
+			</div>
+			<div *ngIf="featured" class="featured">
+				Featured
+			</div>
+		</div>
+		<div class="position">
+			{{position}}
+		</div>
+		<div class="timesAndPlace">
+			<div class="subdata">
+				{{postedAt}}
+			</div>
+			<div class="separator">
+				<div></div>
+			</div>
+			<div class="subdata">
+				{{contract}}
+			</div>
+			<div class="separator">
+				<div></div>
+			</div>
+			<div class="subdata">
+				{{location}}
+			</div>
+		</div>
+	</div>
+	<div class="tags">
+		<div *ngFor="let language of languages">{{language}}</div>
+		<div *ngFor="let tool of tools">{{tool}}</div>
+		<div>{{level}}</div>
+	</div>
+</div>
