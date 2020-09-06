@@ -1,4 +1,4 @@
-<div class="tagBar">
+<div *ngIf="tags.length>0" class="tagBar">
 	<div class="entireTag">
 		<div class="tag">
 			HTML
@@ -38,4 +38,5 @@
 	[location]="job.location"
 	[languages]="job.languages"
 	[tools]="job.tools"
+	[selectTag]="onSelectTag"
 ></jobCard>

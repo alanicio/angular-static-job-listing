@@ -19,9 +19,14 @@ export class JobCardComponent implements OnInit {
 	@Input() location:string;
 	@Input() languages:string;
 	@Input() tools:string;
+	@Input() selectTag: (tag:string)=>{};
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClickTag=(tag:string)=>{
+  	this.selectTag(tag);
   }
 
 }

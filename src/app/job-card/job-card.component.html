@@ -35,8 +35,8 @@
 		</div>
 	</div>
 	<div class="tags">
-		<div *ngFor="let language of languages">{{language}}</div>
-		<div *ngFor="let tool of tools">{{tool}}</div>
-		<div>{{level}}</div>
+		<div *ngFor="let language of languages" (click)="onClickTag(language)">{{language}}</div>
+		<div *ngFor="let tool of tools" (click)="onClickTag(tool)">{{tool}}</div>
+		<div (click)="onClickTag(level)">{{level}}</div>
 	</div>
 </div>
