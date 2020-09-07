@@ -126,3 +126,117 @@
 	background-color: #5ea4a4;
 	color: white;
 }
+
+
+@media only screen and (max-width: 1550px){
+	.cardComponent{
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 1350px){
+	.cardComponent{
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.cardComponent{
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 1071px){
+	.cardComponent{
+		width: 98%;
+	}
+
+	.secondPart{
+		width: 35%;
+	}
+
+	.featured,.new{
+		font-size: 14px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.tags{
+		width: 42%;
+	}
+}
+
+
+@media only screen and (max-width: 964px){
+	.cardComponent{
+		margin-top: 6%;
+	}
+
+	.logo{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		margin-left: 2%;
+		margin-top: -3%;
+		vertical-align: top;
+	}
+
+	.companyName{
+		font-size: 15px;
+	}
+
+	.position{
+		font-size: 18px;
+	}
+
+	.tags{
+		width: 50%;
+	}
+
+	.featured,.new{
+		font-size: 12px;
+		margin-left: 2%;
+	}
+
+	.tags div{
+		margin-right: 2%;
+	}
+}
+
+@media only screen and (max-width: 720px){
+	.cardComponent{
+		margin-top: 14%;
+		padding-left: 6%;
+		padding-right: 6%;
+		width: 80%;
+		height: 250px;
+	}
+
+	.logo{
+		margin-top: -10%;
+	}
+
+	.companyName{
+		font-size: 16px;
+	}
+
+	.position{
+		font-size: 22px;
+	}
+
+	.secondPart{
+		display: block;
+		width: 100%;
+		padding-bottom: 5%;
+		border-bottom: 1px solid #999ea1;
+	}
+
+	.tags{
+		width: 100%;
+	}
+
+	.tags div{
+		margin-right: 5%;
+		margin-bottom: 3%; 
+	}
+}

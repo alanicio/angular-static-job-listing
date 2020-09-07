@@ -46,3 +46,24 @@
 .tagBar .cross:hover{
 	background-color: black;
 }
+
+@media only screen and (max-width: 1000px){
+	.tagBar{
+		width: 95%;
+	}
+
+	.tagBar .entireTag{
+		margin-right: 3%;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	.tagBar{
+		padding-top: 4%;
+	}
+
+	.tagBar .entireTag{
+		margin-right: 4%;
+		margin-bottom: 4%;
+	}
+}
